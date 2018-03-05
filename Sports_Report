@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Sports Report</title>
+
+    <style>
+		body {
+        	background-color: red;
+            color: black;
+            }
+		h1 {
+        	text-align: center;
+            }
+    </style>
+  </head>
+  <body>
+    <h1>Global News</h1>
+    
+    <br>
+    
+    <h2>Raptors coach Dwane Casey to coach Team LeBron in NBA All-Star Game</h2>
+		
+		<p>Casey and his staff earned the opportunity to coach in the All-Star Game for the first time</p>
+		
+   
+  </body>
+</html>
