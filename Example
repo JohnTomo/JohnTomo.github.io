@@ -93,7 +93,7 @@
     	<img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
    		<h1>Third Content</h1>
         <p>Make sure that you leave the bottom div in place, as it's the CLEARFIX hack that you've opened above.</p>
-        <p>Clearfic allows you to keep the image and the text aligned, without having the text appeared above, though, or below the image itself.</p>
+        <p>Clearfix allows you to keep the image and the text aligned, without having the text appeared above, though, or below the image itself.</p>
        </div>
                    
        
