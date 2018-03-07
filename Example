@@ -4,7 +4,7 @@
 		<style>
 			* {
               box-sizing: border-box;
-              font-damily: sans-serif;
+              font-family: sans-serif;
             }
             
             .header,
@@ -19,7 +19,7 @@
               padding: 15px;
             }
             
-            .column ing {
+            .column img {
               float: right;
             }
             
@@ -35,7 +35,12 @@
             
             .content {
               width: 70%;
+              float: right;
             }
+            
+            .more {
+            	float: right;
+                }
             
             .menu ul {
               list-style-type: none;
@@ -65,16 +70,33 @@
       	<div class="column menu">
           <ul>
           	<li><a href="https://mrbrown85.github.io/main.html">Main Page</a></li>
-    		<li><a href="https://mrbrown85.github.io/clubs.html">clubs and Teams</a><li>
+    		<li><a href="https://mrbrown85.github.io/clubs.html">Clubs and Teams</a></li>
    		    <li><a href="https://mrbrown85.github.io/departments.html">Departments</a></li>
-             </ul>
-    </div>
+           </ul>
+    	</div>
     
     <div class="column content">
-    	<img src="https://www.surreyschools.ca/schools/envercreek/Style20%Library/Images/114.jpg">
+    	<img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
    		<h1>Welcome</h1>
         <p>Enver Creek Secondary is located in the heart of surrey, British Columbia.</p>
+        <p>Students who come to Enver Creek Secondary can expect high academic expectation and a focus on cummunity.</p>
        </div>
+       
+        <div class="column content more">
+    	<img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+   		<h1>Second Content</h1>
+        <p>You can use as another space to write concent to your website.</p>
+        <p>Anymore content you write, you won't need any div classis, just copy and paste the column content more and you're set</p>
+       </div>
+       
+          <div class="column content more">
+    	<img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+   		<h1>Third Content</h1>
+        <p>Make sure that you leave the bottom div in place, as it's the CLEARFIX hack that you've opened above.</p>
+        <p>Clearfic allows you to keep the image and the text aligned, without having the text appeared above, though, or below the image itself.</p>
+       </div>
+                   
+       
       </div>
       
       <div class="footer">
