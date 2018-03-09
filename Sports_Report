@@ -11,19 +11,36 @@
 		h1 {
         	text-align: center;
             }
+            
+        img {
+        	width:700px;
+            height:500px;
+            }
     </style>
   </head>
   <body>
-    <h1>SPORTS NEWS
-   </h1>
+    <h1>SPORTS NEWS</h1>
     
     <br>
+    <div>
     <h2>Canada's Scott Croxall closing in on Red Bull Crashed Ice world championship</h2>
-    
-    <img src=https://i.cbc.ca/1.4563530.1520295635!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/croxall-scott-030518.jpg?imwidth=720
+   
+   
+    <img src=https://i.cbc.ca/1.4563530.1520295635!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/croxall-scott-030518.jpg?im>
 		
 		<p>Canada's Scott Croxall will try to seal his first Red Bull Crashed Ice world championship since 2015 on Friday and Saturday in Edmonton.</p>
-		
+        <p>As Red Bull Crashed Ice wraps up its season in Edmonton this Friday and Saturday, Canadian Scott Croxall has his eyes on winning the world championship.</p>
+		</div>
+        
+        <div>
+        <h1>Charles Barkley declares Raptors will make NBA Finals</h1>
+        <img src=https://i.cbc.ca/1.4570070.1520627180!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/charles-barkley.jpg?imwidth=720>
+        <p>Basketball Hall of Famer Charles Barkley says Toronto is his favourite city in the world and that the Raptors are the best team in the NBA's Eastern Conference.</p>
+        <p>The respect is more than mutual.
+
+"I love Chuck, I love Chuck," said DeMar DeRozan on Friday morning, a day after Barkley said on TNT's Inside the NBA that the Raptors guard was the most underrated player in the league.</p>
+
+
    
   </body>
 </html>
