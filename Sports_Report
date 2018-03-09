@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Sports Report</title>
@@ -13,13 +14,15 @@
     </style>
   </head>
   <body>
-    <h1>Global News</h1>
+    <h1>SPORTS NEWS
+   </h1>
     
     <br>
+    <h2>Canada's Scott Croxall closing in on Red Bull Crashed Ice world championship</h2>
     
-    <h2>Raptors coach Dwane Casey to coach Team LeBron in NBA All-Star Game</h2>
+    <img src=https://i.cbc.ca/1.4563530.1520295635!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/croxall-scott-030518.jpg?imwidth=720
 		
-		<p>Casey and his staff earned the opportunity to coach in the All-Star Game for the first time</p>
+		<p>Canada's Scott Croxall will try to seal his first Red Bull Crashed Ice world championship since 2015 on Friday and Saturday in Edmonton.</p>
 		
    
   </body>
