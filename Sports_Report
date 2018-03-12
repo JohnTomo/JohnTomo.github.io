@@ -1,60 +1,120 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sports Report</title>
-
-    <style>
-		body {
-        	background-color: skyblue;
-            color: black;
-            }
-		h1 {
-        	text-align: center;
+	<head>
+		<style>
+			* {
+              box-sizing: border-box;
+              font-family: sans-serif;
             }
             
-        img {
-        	width:700px;
-            height:500px;
+            .header,
+            .footer {
+              background-color: maroon;
+              color: white;
+              padding: 15px;
             }
-    </style>
-  </head>
-  <body>
-    <h1>SPORTS NEWS</h1>
+            
+            .column {
+              float: left;
+              padding: 15px;
+            }
+            
+            .column img {
+              float: right;
+            }
+            
+            .clearfix::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .menu {
+              width: 20%;
+            }
+            
+            .content {
+              width: 70%;
+              float: right;
+            }
+            
+            .more {
+            	float: right;
+                }
+            
+            .menu ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .menu li {
+              padding: 8px;
+              margin-bottom: 8px;
+              background-color: teal;
+              color: #ffffff;
+            }
+            
+            .menu li:hover {
+              background-color: #0099cc;
+            }
+            
+            img {
+            
+            	width:400px;
+                height:300px;
+                }
+		</style>
+
+	</head>
+	<body>
+      <div class="header">
+      	<h1>Sports News</h1>
+      </div>  
+      
+      <div class="clearfix">
+      	<div class="column menu">
+          <ul>
+          	<li><a href="https://mrbrown85.github.io/main.html">Main Page</a></li>
+    		<li><a href="https://mrbrown85.github.io/clubs.html">Clubs and Teams</a></li>
+   		    <li><a href="https://mrbrown85.github.io/departments.html">Departments</a></li>
+           </ul>
+    	</div>
     
-    <br>
-    <div>
-    <h2>Canada's Scott Croxall closing in on Red Bull Crashed Ice world championship</h2>
-   
-   
-    <img src=https://i.cbc.ca/1.4563530.1520295635!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/croxall-scott-030518.jpg?im>
-		
-		<p>Canada's Scott Croxall will try to seal his first Red Bull Crashed Ice world championship since 2015 on Friday and Saturday in Edmonton.</p>
+    <div class="column content">
+    	<img src="https://i.cbc.ca/1.4563530.1520295635!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/croxall-scott-030518.jpg">
+   		<h1>Canada's Scott Croxall closing in on Red Bull Crashed Ice world championship</h1>
+        <p>Canada's Scott Croxall will try to seal his first Red Bull Crashed Ice world championship since 2015 on Friday and Saturday in Edmonton.</p>
         <p>As Red Bull Crashed Ice wraps up its season in Edmonton this Friday and Saturday, Canadian Scott Croxall has his eyes on winning the world championship.</p>
-		</div>
-        
-        <div>
-        <h1>Charles Barkley declares Raptors will make NBA Finals</h1>
-        <img src=https://i.cbc.ca/1.4570070.1520627180!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/charles-barkley.jpg?imwidth=720>
-        <p>Basketball Hall of Famer Charles Barkley says Toronto is his favourite city in the world and that the Raptors are the best team in the NBA's Eastern Conference.</p>
+       </div>
+       
+        <div class="column content more">
+    	<img src=https://i.cbc.ca/1.4570070.1520627180!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_1180/charles-barkley.jpg?imwidth=720>
+   		<h1>Charles Barkley declares Raptors will make NBA Finals</h1>
+        <p>Basketball Hall of Famer Charles Barkley says Toronto is his favourite city in the world and that the Raptors are the best team in the NBA's Eastern Conference</p>
         <p>The respect is more than mutual.
 
 "I love Chuck, I love Chuck," said DeMar DeRozan on Friday morning, a day after Barkley said on TNT's Inside the NBA that the Raptors guard was the most underrated player in the league.</p>
-</div>
-
-<div>
-<h1>Injuries gave Blue Jays prospect Max Pentecost new perspective</h1>
-<img src=https://i.cbc.ca/1.4564076.1520621401!/fileImage/httpImage/image.PNG_gen/derivatives/16x9_1180/max-pentecost.PNG?imwidth=720>
-
-<p>Having three shoulder surgeries allowed aspiring Blue Jays catcher Max Pentecost time for reflection. "I was able to get a grasp on how my body works and reacts. It's helped me get to where I am now." The 11th overall draft pick in 2014 is expected to open this season with double-A New Hampshire.</p>
-<p>Drafted 11th overall in 2014, he has undergone three shoulder surgeries but it's given Pentecost a lot of time to reflect and learn about himself.
+       </div>
+       
+          <div class="column content more">
+    	<img src=https://i.cbc.ca/1.4564076.1520621401!/fileImage/httpImage/image.PNG_gen/derivatives/16x9_1180/max-pentecost.PNG?imwidth=720>
+   		<h1>Injuries gave Blue Jays prospect Max Pentecost new perspective</h1>
+        <p>Having three shoulder surgeries allowed aspiring Blue Jays catcher Max Pentecost time for reflection. "I was able to get a grasp on how my body works and reacts. It's helped me get to where I am now." The 11th overall draft pick in 2014 is expected to open this season with double-A New Hampshire.</p>
+        <p>Drafted 11th overall in 2014, he has undergone three shoulder surgeries but it's given Pentecost a lot of time to reflect and learn about himself.
 
 "I was able to look back and watch the game from a different perspective as opposed to being in it. At the same time, I was able to get a grasp on how my body works and reacts," Pentecost told CBC Sports at the Blue Jays' annual rookie orientation camp last January. "It's helped me get to where I am now."
 
 The Winder, Ga., native will likely begin the season with double-A New Hampshire and has split time as a designated hitter and catcher at this year's big league spring training.</p>
+       </div>
+                   
+       
+      </div>
+      
+      <div class="footer">
+        <p>Footer Text</p>
+      </div>
 
+	</body>
 
-
-
-   
-  </body>
 </html>
