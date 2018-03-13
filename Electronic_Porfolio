@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			* {
+              box-sizing: border-box;
+              font-family: sans-serif;
+            }
+            
+            .header,
+            .footer {
+              background-color: maroon;
+              color: white;
+              padding: 15px;
+            }
+            
+            .column {
+              float: left;
+              padding: 15px;
+            }
+            
+            .column img {
+              float: right;
+            }
+            
+            .clearfix::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .menu {
+              width: 20%;
+            }
+            
+            .content {
+              width: 70%;
+              float: right;
+            }
+            
+            .more {
+            	float: right;
+                }
+            
+            .menu ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .menu li {
+              padding: 8px;
+              margin-bottom: 8px;
+              background-color: teal;
+              color: #ffffff;
+            }
+            
+            .menu li:hover {
+              background-color: #0099cc;
+            }
+            
+            img {
+            
+            	width:400px;
+                height:300px;
+                }
+		</style>
+
+	</head>
+	<body>
+      <div class="header">
+      	<h1>Sports News</h1>
+      </div>  
+      
+      <div class="clearfix">
+      	<div class="column menu">
+          <ul>
+          	<li><a href="https://mrbrown85.github.io/main.html">Main Page</a></li>
+    		<li><a href="https://mrbrown85.github.io/clubs.html">Clubs and Teams</a></li>
+   		    <li><a href="https://mrbrown85.github.io/departments.html">Departments</a></li>
+           </ul>
+    	</div>
+    
+    <div class="column content">
+    	<img src=https://i.ytimg.com/vi/RRTsQmGM53c/maxresdefault.jpg>
+   		<h1>
+Golden State Warriors fans celebrate NBA championship</h1>
+        <p>Golden State Warriors fans cheered and danced outside the Oracle Arena after their team defeated the Cleveland Cavaliers 129-120 in Game 5 of the NBA Finals.</p>
+        <p>Golden State’s finished the playoffs with a remarkable 16-1 record of the best playoff performances in NBA no sports history.</p>
+       </div>
+       
+        <div class="column content more">
+    	<img src=https://www.ctvnews.ca/polopoly_fs/1.1170340.1361771318!/httpImage/image.jpg_gen/derivatives/landscape_960/image.jpg>
+   		<h1>Vancouver-based software developer wins Oscar for technical achievement</h1>
+        <p>Two software developers from Canada are among the first Academy Award winners of the year.</p>
+        <p>Canada was a big player at last night’s Academy Awards as the country earned a high profile shout-out while a number of Canucks went home with awards.</p>
+       </div>
+       
+          <div class="column content more">
+    	<img src=https://johnnycigarsports247.files.wordpress.com/2017/09/verne-and-raf-wfuv-award.jpg?w=461&h=307>
+   		<h1>Broadcaster Al Michaels to receive Vin Scully award for lifetime achievement</h1>
+        <p>Al Michaels will receive the Vin Scully Lifetime Achievement Award in Sports Broadcasting.</p>
+        <p>Michaels worked NFL games and other sports for ABC, and called “Monday Night Football” for nearly 20 years.</p>
+       </div>
+                   
+       
+      </div>
+      
+      <div class="footer">
+        <p>Footer Text</p>
+      </div>
+
+	</body>
+
+</html>
