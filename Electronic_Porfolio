@@ -64,6 +64,10 @@
             	width:400px;
                 height:300px;
                 }
+                body {
+        	background-color: Orange;
+            color: grey;
+            }
 		</style>
 
 	</head>
