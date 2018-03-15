@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Tourist Attractions</title>
+
+    <style>
+		body {
+        	background-color: Orange;
+            color: black;
+            }
+		h1 {
+        	text-align: center;
+            }
+            img {
+            
+            width:400px;
+            height:300px;
+            }
+    </style>
+  </head>
+  <body>
+    <h1>History of Computer</h1>
+    
+    <br>
+    
+    <h2>In 1970s</h2>
+    
+   
+
+<h2>Amdahl Corporation introduces the Amdahl 470</h2>
+
+<img src=http://images.computerhistory.org/timeline/timeline_computers_1970.amdahl470.jpg>
+
+<p>Gene Amdahl, father of the IBM System/360, starts his own company, Amdahl Corporation, to compete with IBM in mainframe computer systems. The 470V/6 was the company’s first product and ran the same software as IBM System/370 computers but cost less and was smaller and faster.</p>
+ <br>
+ <h2>In 1980s</h2>
+ 
+ 
+ <h2>Enquire</h2>
+ <img src=http://images.computerhistory.org/timeline/timeline_networking.web_1980_enquire.jpg>
+ 
+ <p>In 1980 Tim Berners-Lee at the CERN physics laboratory creates Enquire, a networked hypertext system used for project management but with far greater ambitions. It seeks to categorize hyperlinks in a way that can be read by computers as well as people. He later claims he hadn't been aware of earlier hypertext work at the time, so it may be an independent reinvention. He names the program after a Victorian advice book and encyclopedia he had loved as a child, *Enquire Within (about Everything)." Berners-Lee will go on to invent the World Wide Web, partly based on Enquire.</p>
+ <br>
+ <h2>1990s</h2>
+ <h2>Intel's Touchstone Delta supercomputer system comes online</h2>
+ <img src=http://images.computerhistory.org/timeline/timeline_computers_1990.touchstonedelta.jpg>
+<p>Reaching 32 gigaflops (32 billion floating point operations per second), Intel’s Touchstone Delta has 512 processors operating independently, arranged in a two-dimensional communications “mesh.” Caltech researchers used this supercomputer prototype for projects such as real-time processing of satellite images, and for simulating molecular models in AIDS research. It would serve as the model for several other significant multi-processor systems that would be among the fastest in the world.</p>
+  </body>
+</html>
