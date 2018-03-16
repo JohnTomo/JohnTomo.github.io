@@ -1,48 +1,119 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Tourist Attractions</title>
-
-    <style>
-		body {
-        	background-color: Orange;
-            color: black;
+	<head>
+		<style>
+			* {
+              box-sizing: border-box;
+              font-family: sans-serif;
             }
-		h1 {
-        	text-align: center;
+            
+            .header,
+            .footer {
+              background-color: Green;
+              color: Orange;
+              padding: 15px;
             }
+            
+            .column {
+              float: left;
+              padding: 15px;
+            }
+            
+            .column img {
+              float: right;
+            }
+            
+            .clearfix::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            .menu {
+              width: 20%;
+            }
+            
+            .content {
+              width: 70%;
+              float: right;
+            }
+            
+            .more {
+            	float: right;
+                }
+            
+            .menu ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .menu li {
+              padding: 8px;
+              margin-bottom: 8px;
+              background-color: teal;
+              color: #ffffff;
+            }
+            
+            .menu li:hover {
+              background-color: #0099cc;
+            }
+            
             img {
             
-            width:400px;
-            height:300px;
-            }
-    </style>
-  </head>
-  <body>
-    <h1>History of Computer</h1>
-    
-    <br>
-    
-    <h2>In 1970s</h2>
-    
-   
+            	width:400px;
+                height:300px;
+                }
+		</style>
 
-<h2>Amdahl Corporation introduces the Amdahl 470</h2>
+	</head>
+	<body>
+      <div class="header">
+      	<h1>Sports News</h1>
+      </div>  
+      
+      <div class="clearfix">
+      	<div class="column menu">
+        <ul>
+                   <li><a href="https://mrbrown85.github.io/main.html">Main Page</a></li>
+    		<li><a href="https://mrbrown85.github.io/clubs.html">Clubs and Teams</a></li>
+   		    <li><a href="https://mrbrown85.github.io/departments.html">Departments</a></li>
+           </ul>
+    	</div>
+    <div class="column content">
+    	<img src=http://images.computerhistory.org/timeline/timeline_memorystorage_1970.ibm370memory.jpg>
+        <h1>1970s</h1>
+   		<h1>First IBM computer to use semiconductor memory</h1>
+        <p>In a departure from using magnetic core memory technology, IBM introduces the System 370 Model 145 mainframe computer, the company's first all-semiconductor memory computer. The Model 145 could store an equivalent amount of data in half the space, compared to a computer using core memory.</p>
+       </div>
+       
+        <div class="column content more">
+    	<img src=http://images.computerhistory.org/timeline/timeline_computers_1980.vic20.jpg>
+         <h1>1980s</h1>
+   		<h1>Commodore introduces the VIC-20</h1>
+        <p>Commodore releases the VIC-20 home computer as the successor to the Commodore PET personal computer. Intended to be a less expensive alternative to the PET, the VIC-20 was highly successful, becoming the first computer to sell more than a million units. Commodore even used Star Trek television star William Shatner in advertisements.</p>
+       </div>
+       
+          <div class="column content more">
+    	<img src=http://images.computerhistory.org/timeline/timeline_computers_1990.touchstonedelta.jpg>
+        <h1>1990s</h1>
+   		<h1>Intel's Touchstone Delta supercomputer system comes online</h1>
+        <p>Reaching 32 gigaflops (32 billion floating point operations per second), Intel’s Touchstone Delta has 512 processors operating independently, arranged in a two-dimensional communications “mesh.” Caltech researchers used this supercomputer prototype for projects such as real-time processing of satellite images, and for simulating molecular models in AIDS research. It would serve as the model for several other significant multi-processor systems that would be among the fastest in the world.</p>
+         <div class="column content more">
+         <img src=http://images.computerhistory.org/timeline/timeline_memorystorage_2000.usbflashdrive.jpg>
+         <h1>2000s</h1>
+         <h1>USB Flash drive</h1>
+         <p>USB Flash drives are introduced. Sometimes referred to as jump drives or memory sticks, these drives consisted of flash memory encased in a small form factor container with a USB interface. They could be used for data storage and in the backing up and transferring of files between various devices. They were faster and had greater data capacity than earlier storage media. Also, they could not be scratched like optical discs and were resilient to magnetic erasure, unlike floppy disks. Drives for floppy disks and optical discs faded in popularity for desktop PCs and laptops in favor of USB ports after flash drives were introduced.</p>
+       
+       </div>
+                   
+       
+      </div>
+      
+      <div class="footer">
+     
+      </div>
 
-<img src=http://images.computerhistory.org/timeline/timeline_computers_1970.amdahl470.jpg>
+	</body>
 
-<p>Gene Amdahl, father of the IBM System/360, starts his own company, Amdahl Corporation, to compete with IBM in mainframe computer systems. The 470V/6 was the company’s first product and ran the same software as IBM System/370 computers but cost less and was smaller and faster.</p>
- <br>
- <h2>In 1980s</h2>
- 
- 
- <h2>Enquire</h2>
- <img src=http://images.computerhistory.org/timeline/timeline_networking.web_1980_enquire.jpg>
- 
- <p>In 1980 Tim Berners-Lee at the CERN physics laboratory creates Enquire, a networked hypertext system used for project management but with far greater ambitions. It seeks to categorize hyperlinks in a way that can be read by computers as well as people. He later claims he hadn't been aware of earlier hypertext work at the time, so it may be an independent reinvention. He names the program after a Victorian advice book and encyclopedia he had loved as a child, *Enquire Within (about Everything)." Berners-Lee will go on to invent the World Wide Web, partly based on Enquire.</p>
- <br>
- <h2>1990s</h2>
- <h2>Intel's Touchstone Delta supercomputer system comes online</h2>
- <img src=http://images.computerhistory.org/timeline/timeline_computers_1990.touchstonedelta.jpg>
-<p>Reaching 32 gigaflops (32 billion floating point operations per second), Intel’s Touchstone Delta has 512 processors operating independently, arranged in a two-dimensional communications “mesh.” Caltech researchers used this supercomputer prototype for projects such as real-time processing of satellite images, and for simulating molecular models in AIDS research. It would serve as the model for several other significant multi-processor systems that would be among the fastest in the world.</p>
-  </body>
 </html>
