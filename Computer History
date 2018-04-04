@@ -76,8 +76,8 @@
       	<div class="column menu">
         <ul>
                    <li><a href="https://mrbrown85.github.io/main.html">Main Page</a></li>
-    		<li><a href="https://mrbrown85.github.io/clubs.html">Clubs and Teams</a></li>
-   		    <li><a href="https://mrbrown85.github.io/departments.html">Departments</a></li>
+    		<li><a href="https://mrbrown85.github.io/clubs.html">Other Page</a></li>
+   		    <li><a href="https://mrbrown85.github.io/departments.html">Other other Page</a></li>
            </ul>
     	</div>
     <div class="column content">
@@ -104,6 +104,11 @@
          <h1>2000s</h1>
          <h1>USB Flash drive</h1>
          <p>USB Flash drives are introduced. Sometimes referred to as jump drives or memory sticks, these drives consisted of flash memory encased in a small form factor container with a USB interface. They could be used for data storage and in the backing up and transferring of files between various devices. They were faster and had greater data capacity than earlier storage media. Also, they could not be scratched like optical discs and were resilient to magnetic erasure, unlike floppy disks. Drives for floppy disks and optical discs faded in popularity for desktop PCs and laptops in favor of USB ports after flash drives were introduced.</p>
+         <div class="column content more">
+       	 <img src=http://images.computerhistory.org/timeline/timeline_computers_2010.tianhe.jpg>
+         <h1>2010s</h1>
+         <h1>China's Tianhe supercomputers are operational</h1>
+         <p>With a peak speed of over a petaflop (one thousand trillion calculations per second), the Tianhe 1 (translation: Milky Way 1) is developed by the Chinese National University of Defense Technology using Intel Xeon processors combined with AMD graphic processing units (GPUs). The upgraded and faster Tianhe-1A used Intel Xeon CPUs as well, but switched to nVidia's Tesla GPUs and added more than 2,000 Fei-Tang (SPARC-based) processors. The machines were used by the Chinese Academy of Sciences to run massive solar energy simulations, as well as some of the most complex molecular studies ever undertaken.</p>
        
        </div>
                    
