@@ -10,7 +10,7 @@
             .header,
             .footer {
               background-color: Green;
-              color: Orange;
+              color: Yellow;
               padding: 15px;
             }
             
@@ -69,7 +69,7 @@
 	</head>
 	<body>
       <div class="header">
-      	<h1>Sports News</h1>
+      	<h1>Computer History</h1>
       </div>  
       
       <div class="clearfix">
@@ -99,21 +99,23 @@
         <h1>1990s</h1>
    		<h1>Intel's Touchstone Delta supercomputer system comes online</h1>
         <p>Reaching 32 gigaflops (32 billion floating point operations per second), Intel’s Touchstone Delta has 512 processors operating independently, arranged in a two-dimensional communications “mesh.” Caltech researchers used this supercomputer prototype for projects such as real-time processing of satellite images, and for simulating molecular models in AIDS research. It would serve as the model for several other significant multi-processor systems that would be among the fastest in the world.</p>
+        </div>
+        
          <div class="column content more">
          <img src=http://images.computerhistory.org/timeline/timeline_memorystorage_2000.usbflashdrive.jpg>
          <h1>2000s</h1>
          <h1>USB Flash drive</h1>
          <p>USB Flash drives are introduced. Sometimes referred to as jump drives or memory sticks, these drives consisted of flash memory encased in a small form factor container with a USB interface. They could be used for data storage and in the backing up and transferring of files between various devices. They were faster and had greater data capacity than earlier storage media. Also, they could not be scratched like optical discs and were resilient to magnetic erasure, unlike floppy disks. Drives for floppy disks and optical discs faded in popularity for desktop PCs and laptops in favor of USB ports after flash drives were introduced.</p>
+         </div>
+         
          <div class="column content more">
        	 <img src=http://images.computerhistory.org/timeline/timeline_computers_2010.tianhe.jpg>
          <h1>2010s</h1>
          <h1>China's Tianhe supercomputers are operational</h1>
          <p>With a peak speed of over a petaflop (one thousand trillion calculations per second), the Tianhe 1 (translation: Milky Way 1) is developed by the Chinese National University of Defense Technology using Intel Xeon processors combined with AMD graphic processing units (GPUs). The upgraded and faster Tianhe-1A used Intel Xeon CPUs as well, but switched to nVidia's Tesla GPUs and added more than 2,000 Fei-Tang (SPARC-based) processors. The machines were used by the Chinese Academy of Sciences to run massive solar energy simulations, as well as some of the most complex molecular studies ever undertaken.</p>
-       
-       </div>
+        </div>
                    
        
-      </div>
       
       <div class="footer">
      
